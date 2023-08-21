@@ -11,10 +11,14 @@
 }
 
 .headings {
-   
+   display: flex; 
+   align-items: center;
 }
 
 .content {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
     background-color: rgba(87, 155, 215, 0.5);
     border-color: rgba(150, 155, 233, 0.5);
     border-style: groove;
